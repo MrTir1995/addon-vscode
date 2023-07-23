@@ -6,7 +6,8 @@ description: Fully featured Visual Studio Code (VSCode) experience integrated in
 url: https://github.com/hassio-addons/addon-vscode
 codenotary: codenotary@frenck.dev
 ingress: true
-ingress_port: 1337
+ports:
+  1337tcp: 1337
 ingress_stream: true
 panel_icon: mdi:microsoft-visual-studio-code
 startup: services
